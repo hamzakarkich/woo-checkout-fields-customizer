@@ -1,0 +1,37 @@
+.wc-checkout-fields-customizer-field {
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.wc-checkout-fields-customizer-field:hover {
+    background-color: #f9f9f9;
+}
+
+#wc-checkout-fields-customizer-table th {
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+}
+
+#wc-checkout-fields-customizer-table td {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+#wc-checkout-fields-customizer-table input[type="text"],
+#wc-checkout-fields-customizer-table input[type="number"],
+#wc-checkout-fields-customizer-table select {
+    width: 100%;
+}
+
+#wc-checkout-fields-customizer-table .remove-field {
+    color: #a00;
+}
+
+#wc-checkout-fields-customizer-table .remove-field:hover {
+    color: #dc3232;
+}
+
+#add-new-field {
+    margin-top: 20px;
+}

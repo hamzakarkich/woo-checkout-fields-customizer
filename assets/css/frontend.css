@@ -1,0 +1,33 @@
+/* Style for the custom checkout fields */
+.woocommerce-billing-fields .form-row-wide {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.woocommerce form .form-row input.input-text,
+.woocommerce form .form-row textarea {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+}
+
+.woocommerce form .form-row input.input-text:focus,
+.woocommerce form .form-row textarea:focus {
+    border-color: #5897fb;
+    outline: none;
+    box-shadow: 0 0 5px rgba(88, 151, 251, 0.5);
+}
+
+.woocommerce form .form-row label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.woocommerce form .form-row.validate-required label::after {
+    content: " *";
+    color: #e2401c;
+}
